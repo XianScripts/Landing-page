@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     list-style-type: none;
-    color: #F9FAF8; 
+    /* color: #F9FAF8;  */
     /* padding: 30px; */
 }
 
@@ -18,10 +18,12 @@
     padding-top: 20px;
     padding-left: 210px;
     padding-right: 210px;
+    
 }
 
 .headertop, .headerbottom{
     display: flex;
+    color: #F9FAF8;
     
 }
 
@@ -56,6 +58,7 @@
 .headerright {
     /* padding: 60px; */
     margin-left: 500px;
+
 }
 
 .button1 >button {
@@ -69,6 +72,37 @@ ul {
     display: flex;
     text-decoration: none;
     gap: 16px;
-    margin-right: 140px;
+    color: #F9FAF8;
     /* padding-right: 50px; */
 }
+
+a {
+    color: #F9FAF8;
+}
+
+#info {
+    margin-bottom: 500px;
+}
+
+.infohead {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.infocontainer {
+    display: flex;
+    width: 200px;
+    gap: 40px;
+    margin-left: 725px;
+    justify-content: center;
+}
+
+.box >img {
+    width: 160px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+
