@@ -161,3 +161,15 @@ a {
 .calltext >span >h2 {
     color: #F9FAF8;
 }
+
+.calltext >span {
+    color: #E5E7EB;
+}
+
+.callbutton >button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 80px;
+    height: 26px;
+    border-radius: 8px;
+}
