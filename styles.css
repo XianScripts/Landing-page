@@ -147,12 +147,15 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 100%;
+    /* flex-basis: 100%; No effect */
     height: 330px;
 }
 
 .callbox {
     background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 1000px;
     height: 120px;
     border-radius: 10px;
