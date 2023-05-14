@@ -1,64 +1,67 @@
 * {
     box-sizing: border-box;
-    /* border: 1px solid red; */
-    margin: 0 0;
     padding: 0 0;
+    margin: 0 0;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    list-style-type: none;
-    /* color: #F9FAF8;  */
-    /* padding: 30px; */
+    list-style-type: none; */
+    color: #F9FAF8; 
 }
-
-
+ 
 .header {
     display: flex;
-    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
     background-color: #1F2937;
-    padding-top: 20px;
-    padding-left: 210px;
-    padding-right: 210px;
-    
-}
-
-.headertop, .headerbottom{
-    display: flex;
-    color: #F9FAF8;
-    
-}
-
-.heroimg >img {
-    width: 660px;
-    height: 260px;
-    margin-left: -880px;
-    margin-bottom: 50px;
-}
-
-.headertop >logo {
-    font-weight: bolder;
+    padding-top: 10px;
 }
 
 .headertop {
-    justify-content: space-between;
-    flex-grow: 1;
-    margin-bottom: 40px;
-    height: 100px;
-    width: 1200px;
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: nowrap;
+    margin-bottom: 110px;
+    gap: 530px;
+    justify-content: center;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.headertoplinks{
+    align-self: center;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+a {
+    color: #E5E7EB;
 }
 
 .headerbottom {
-    padding-top: -80px;
+    display: flex;
+    gap: 350px;
+    margin-bottom: 100px;
+    color: #F9FAF8;
+    flex-basis: 1300px;
+    margin-right: 130px;
 }
 
 .headerleft {
+    margin-left: 170px;
     display: flex;
-    flex-basis: 1400px;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.headerright {
-    /* padding: 60px; */
-    margin-left: 500px;
+.subtitle {
 
 }
 
@@ -72,20 +75,13 @@
     margin-top: 5px;
 }
 
-ul {
-    display: flex;
-    text-decoration: none;
-    gap: 16px;
-    color: #F9FAF8;
-    /* padding-right: 50px; */
-}
-
-a {
-    color: #F9FAF8;
+.heroimg >img {
+    width: 500px;
+    height: 230px;
 }
 
 #info {
-    margin-bottom: 110px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
     flex-direction: columns;
@@ -108,11 +104,13 @@ a {
     margin-left: 725px; */
     justify-content: center;
     gap: 48px;
+    margin-bottom: 100px;
     
 }
 .box {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box >img {
