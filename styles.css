@@ -176,3 +176,13 @@ a {
     height: 26px;
     border-radius: 8px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    height: 70px;
+
+}
